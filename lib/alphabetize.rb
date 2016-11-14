@@ -1,3 +1,6 @@
 def alphabetize(arr)
-  # code here
+  arr.sort_by{|word|
+    puts word.tr("ĉĝĥĵŝŭ", "cghjsu")
+    puts word
+    word.tr("ĉĝĥĵŝŭ", "cghjsu")}
 end
